@@ -520,13 +520,15 @@
   version "0.7.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
-"@tarojs/taro@^1.2.2":
-  version "1.2.26"
-  resolved "https://registry.npmjs.org/@tarojs/taro/-/taro-1.2.26.tgz#486c9acce62751e2e3110421a06c0e1bb7174034"
+"@tarojs/taro@1.2.27-beta.0":
+  version "1.2.27-beta.0"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-1.2.27-beta.0.tgz#e69d929eff7c7e9434e1f99a55b073c9f90db025"
+  integrity sha512-VbVE+vPe324f5KfcCVrMSoxZViUmoJNS+qlVLLyCxWd/OUkVuQFJ19ulctm7010GHT5WyBuL1z/gnOYN2q74KQ==
 
-"@tarojs/taroize@1.2.13":
-  version "1.2.13"
-  resolved "https://registry.npmjs.org/@tarojs/taroize/-/taroize-1.2.13.tgz#8f63dab0a7e9dc0f8ca5ef687573559a90532a8b"
+"@tarojs/taroize@1.2.27-beta.0":
+  version "1.2.27-beta.0"
+  resolved "https://registry.yarnpkg.com/@tarojs/taroize/-/taroize-1.2.27-beta.0.tgz#572b668e3b8fd6083c1c5c95cefc35657084d7b4"
+  integrity sha512-FuGmpQqnFkksVBmD7vej2PzPGXFhvbcFpHTYxBd2g0mZsahWECT3RF8ME8HmwAdtDkuWnxc4tw5NnzL7/9xtDA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     babel-core "^6.26.3"
@@ -539,9 +541,10 @@
     lodash "^4.17.5"
     typescript "^3.0.1"
 
-"@tarojs/transformer-wx@1.2.13":
-  version "1.2.13"
-  resolved "https://registry.npmjs.org/@tarojs/transformer-wx/-/transformer-wx-1.2.13.tgz#a0d7f1754acd7d296f182db4c2fbc456bde277da"
+"@tarojs/transformer-wx@1.2.27-beta.0":
+  version "1.2.27-beta.0"
+  resolved "https://registry.yarnpkg.com/@tarojs/transformer-wx/-/transformer-wx-1.2.27-beta.0.tgz#3d639e8f236d8144a6184dff14a2f3e48dc80dc3"
+  integrity sha512-2uEoMrwz3GyFRIB90+pA2W6QkaASQ++JgLPPBr+VPK4rKq3FuNAxkoAawZJaGMrmVQyaVRG/Cygbfg73PRrW3w==
   dependencies:
     "@babel/code-frame" "^7.0.0-beta.44"
     babel-core "^6.26.3"
@@ -555,12 +558,15 @@
     babel-plugin-syntax-dynamic-import "^6.18.0"
     babel-plugin-transform-class-properties "^6.24.1"
     babel-plugin-transform-define "^1.3.0"
+    babel-plugin-transform-do-expressions "^6.22.0"
     babel-plugin-transform-es2015-template-literals "^6.22.0"
+    babel-plugin-transform-export-extensions "^6.22.0"
     babel-plugin-transform-flow-strip-types "^6.22.0"
     babel-traverse "^6.26.0"
     babel-types "^6.26.0"
     eslint "^4.15.0"
-    eslint-plugin-taro "1.2.13"
+    eslint-plugin-react "7.10.0"
+    eslint-plugin-taro "1.2.27-beta.0"
     html "^1.0.0"
     lodash "^4.17.5"
     prettier "^1.14.2"
@@ -3079,11 +3085,12 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-taro@^1.1.4:
-  version "1.2.26"
-  resolved "https://registry.npmjs.org/eslint-config-taro/-/eslint-config-taro-1.2.26.tgz#b75100c656d2ee9d5c38c3c5a9e0d54f9c8b3cfb"
+eslint-config-taro@1.2.27-beta.0:
+  version "1.2.27-beta.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-taro/-/eslint-config-taro-1.2.27-beta.0.tgz#85531a805afdb14b0db818c0fcd1af2b85c21068"
+  integrity sha512-asX9QAtLagSV6vayacWKkmqDCAJJ0R05HmvipRq4/Hgk9JRy0yl8RrfqqN/3dX/Kg3CQpO32WZhGMRYbqgqcAA==
   dependencies:
-    eslint-plugin-taro "1.2.26"
+    eslint-plugin-taro "1.2.27-beta.0"
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
@@ -3101,7 +3108,8 @@ eslint-module-utils@^2.4.0:
 
 eslint-plugin-import@^2.8.0:
   version "2.17.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.17.2.tgz#d227d5c6dc67eca71eb590d2bb62fb38d86e9fcb"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.17.2.tgz#d227d5c6dc67eca71eb590d2bb62fb38d86e9fcb"
+  integrity sha512-m+cSVxM7oLsIpmwNn2WXTJoReOF9f/CtLMo7qOVmKd1KntBy0hEcuNZ3erTmWjx+DxRO0Zcrm5KwAvI9wHcV5g==
   dependencies:
     array-includes "^3.0.3"
     contains-path "^0.1.0"
@@ -3125,6 +3133,16 @@ eslint-plugin-react-native@^3.2.1:
   dependencies:
     eslint-plugin-react-native-globals "^0.1.1"
 
+eslint-plugin-react@7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.10.0.tgz#af5c1fef31c4704db02098f9be18202993828b50"
+  integrity sha512-18rzWn4AtbSUxFKKM7aCVcj5LXOhOKdwBino3KKWy4psxfPW0YtIbE8WNRDUdyHFL50BeLb6qFd4vpvNYyp7hw==
+  dependencies:
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.0.1"
+    prop-types "^15.6.2"
+
 eslint-plugin-react@^7.4.0:
   version "7.12.4"
   resolved "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.12.4.tgz#b1ecf26479d61aee650da612e425c53a99f48c8c"
@@ -3137,15 +3155,10 @@ eslint-plugin-react@^7.4.0:
     prop-types "^15.6.2"
     resolve "^1.9.0"
 
-eslint-plugin-taro@1.2.13:
-  version "1.2.13"
-  resolved "https://registry.npmjs.org/eslint-plugin-taro/-/eslint-plugin-taro-1.2.13.tgz#e6a90a50fa0f3fef495e36e9135fab6db8bcc785"
-  dependencies:
-    has "^1.0.1"
-
-eslint-plugin-taro@1.2.26, eslint-plugin-taro@^1.1.4:
-  version "1.2.26"
-  resolved "https://registry.npmjs.org/eslint-plugin-taro/-/eslint-plugin-taro-1.2.26.tgz#19bcbe9838ee744dc33925d4d9b9690c8606c0d5"
+eslint-plugin-taro@1.2.27-beta.0:
+  version "1.2.27-beta.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-taro/-/eslint-plugin-taro-1.2.27-beta.0.tgz#cc1bef2d8310408a665981eb7fc466af7c96a16c"
+  integrity sha512-qhwjMNsAZh38/epp1HVnjOwUUYXt6eOVick8x/zdBXV0jsYqpHyyXxmWG7yFQqJOutZjQD0xy+2uQU9Rmnxs0w==
   dependencies:
     has "^1.0.1"
 
